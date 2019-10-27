@@ -59,9 +59,9 @@ public class Alipay {
 		alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=金额&userId=商户id&memo=备注
 		 */
 		QRCodeUtil.encode(
-				"alipays://platformapi/startapp?appId=20000042&&publicId=2015060900116695&&followType=PUBLIC&&source",
+				"alipays://platformapi/startApp?appId=20000125&orderSuffix=' + 191022-651998331574083 +'#Intent;scheme=alipays;package=com.eg.android.AlipayGphone;end",
 				"/file",
-				true,"20000042&&publicId=2015060900116695&&followType=PUBLIC&&source");
+				true,"651998331574083SADFOHSDFAJADSFGSDFHDH;O");
 	}
 
 }
