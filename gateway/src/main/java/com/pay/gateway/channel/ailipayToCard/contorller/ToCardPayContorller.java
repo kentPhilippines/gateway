@@ -38,11 +38,11 @@ import cn.hutool.core.util.StrUtil;
 @Controller
 @RequestMapping("/api")
 public class ToCardPayContorller {
-	 Logger log = LoggerFactory.getLogger(ToCardPayContorller.class);
-	 @Value("${tomcat.imgpath.path}")
-	 private String imgpath;
+	Logger log = LoggerFactory.getLogger(ToCardPayContorller.class);
+	@Value("${tomcat.imgpath.path}")
+	private String imgpath;
 	@Autowired
-	 RedisUtil redisUtil;
+	RedisUtil redisUtil;
 	@Autowired
 	OrderService orderServiceImpl;
 	@Autowired
